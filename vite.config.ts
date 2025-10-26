@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3000,
         host: '0.0.0.0',
-        allowedHosts: ['edufluxsmartlearning.onrender.com', 'localhost']
+        allowedHosts: ['edufluxdsmartlearning.onrender.com']
       },
       plugins: [react()],
       define: {
